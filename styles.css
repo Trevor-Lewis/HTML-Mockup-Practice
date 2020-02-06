@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0p;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-container {
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.nav-container h1 {
+    color: rgb(243, 240, 240);
+    margin: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(243, 240, 240);
+    margin: 10px;
+}
+
+.mockup-container {
+    width: 95%;
+    margin-top: 20px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mockup {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
